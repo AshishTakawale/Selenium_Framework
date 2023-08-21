@@ -22,7 +22,7 @@ public class CartPage extends AbstractComponents{
 		
 	}
 	@FindBy(css=".cartSection h3")
-	List <WebElement> CartProducts;
+	private List <WebElement> CartProducts;
 	@FindBy (xpath="//li/button[@type='button']")
 	WebElement checkOut;
 	
