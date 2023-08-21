@@ -16,7 +16,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class standaloneTest {
 
 	public static void main(String[] args) {
-		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		String productName= "IPHONE 13 PRO";
